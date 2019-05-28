@@ -111,7 +111,7 @@ async def on_member_join(member):
 
 
 async def create_pool():
-    connstring = 'dbname=postgres user=postgres password=qwertylol7340 host=127.0.0.1'
+    connstring = 'dbname=postgres user=postgres password=password host=127.0.0.1'
     pool = await aiopg.create_pool(connstring)
     return pool
 
